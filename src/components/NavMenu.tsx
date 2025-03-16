@@ -16,48 +16,48 @@ import {
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "ALBUMS",
-    href: "/docs/primitives/alert-dialog",
+    href: "/",
     description:
       "",
   },
   {
     title: "CELEBRATION",
-    href: "/docs/primitives/hover-card",
+    href: "/",
     description:
       "",
   },
   {
     title: "MESSAGING",
-    href: "/docs/primitives/progress",
+    href: "/",
     description:
       "",
   },
   {
     title: "PROFILE",
-    href: "/docs/primitives/scroll-area",
+    href: "/",
     description: "",
   },
   {
     title: "EVENTS",
-    href: "/docs/primitives/tabs",
+    href: "/",
     description:
       "",
   },
   {
     title: "GROUPS",
-    href: "/docs/primitives/tooltip",
+    href: "/",
     description:
       "",
   },
   {
     title: "POST VIDEOS",
-    href: "/docs/primitives/tooltip",
+    href: "/",
     description:
       "",
   },
   {
     title: "BLOG",
-    href: "/docs/primitives/tooltip",
+    href: "/",
     description:
       "",
   },

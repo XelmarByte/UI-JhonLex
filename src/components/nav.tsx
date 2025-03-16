@@ -1,10 +1,10 @@
 import { Input } from "./ui/Input";
 import { Logo } from "./ui/Logo";
-import ThemeModeToggle from "./ThemeModeToggle";
-import {NavMenu} from "./NavMenu";
 import { BtnSms } from "./ui/BtnSms";
 import { BtnSettings } from "./ui/BtnSettings";
 import { BtnNotifications } from "./ui/BtnNotifications";
+import Dropdown from "./ui/Dropdown";
+import BtnProfile from "./ui/BtnProfile";
 
 function Nav() {
   return (
@@ -14,11 +14,11 @@ function Nav() {
         <Input type="search" placeholder="Search" />
       </div>
       <div className="flex space-x-2">
-        <NavMenu/>
+        <Dropdown />
         <BtnSms />
         <BtnSettings />
         <BtnNotifications />
-        <ThemeModeToggle />
+        <BtnProfile />
       </div>
     </div>
   );
